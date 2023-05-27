@@ -1,6 +1,6 @@
 # Video-playback-speed-changer-bookmarklet
 Enhance your video watching experience with the "Video Speed Control" bookmarklet.\
-This handy tool allows you to easily adjust the playback speed of videos on various platforms, including YouTube and Blackboard Collaborate.
+This handy tool allows you to easily adjust the playback speed of embedded HTML5 videos on various platforms, including YouTube and Blackboard Collaborate.
 
 Follow these simple steps to use the bookmarklet:
 
