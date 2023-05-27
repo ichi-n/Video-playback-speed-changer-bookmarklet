@@ -6,7 +6,12 @@ javascript: (function changePlaybackSpeed() {
     return;
   }
 
-  const speed = parseFloat(prompt('Enter playback speed', '1.5'));
+  let speed = prompt('Enter playback speed', '1.5');
+  if (speed === null) {
+    return;
+  }
+
+  speed = parseFloat(speed);
   if (isNaN(speed) || speed <= 0) {
     alert('Invalid playback speed.\nPlease enter a positive number.');
     return;
