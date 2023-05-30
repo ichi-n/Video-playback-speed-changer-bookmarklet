@@ -6,7 +6,7 @@ javascript: (function changePlaybackSpeed() {
     return;
   }
 
-  let speed = prompt('Enter playback speed.', '1.5');
+  let speed = prompt('Enter playback speed.', '1.8');
   if (speed === null) {
     return;
   }
